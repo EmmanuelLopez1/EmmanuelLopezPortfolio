@@ -1,0 +1,18 @@
+@import '../css/global';
+.mobile-menu-list{
+    box-shadow:$shadow-bl-10;
+}
+  
+
+#mobile-menu:checked ~ .mobile-menu-list{
+    display: none;
+}
+
+.mobile-menu-icon{
+    width:50px;
+    height:50px;
+}
+
+.mobile-menu-icon path{
+    fill:white;
+}

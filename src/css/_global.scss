@@ -1,0 +1,7 @@
+
+$shadow-bl-10:0px 0px 0px 0px var(--primary);
+
+
+@for $i from 1 through 10 {
+    $shadow-bl-10: $shadow-bl-10, +  $i+px $i+px 0px 0px var(--primary), ;
+}
