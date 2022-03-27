@@ -8,7 +8,7 @@ export const Header = () => {
     const menuList = ['Home', 'About me', 'Experience', 'My work', 'Contact']
     return (
         <div className="Header">
-            <div className="p-3 flex bg-dark relative justify-between items-center border-b-2 border-light">
+            <div className="p-4 flex bg-dark relative justify-between items-center border-b-2 border-light">
                 <h3 className="font-title text-white text-3xl w-6/12 racking-widest">
                     Emmanuel Lopez Portfolio
                 </h3>

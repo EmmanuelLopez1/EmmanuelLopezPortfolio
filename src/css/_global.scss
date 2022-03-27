@@ -1,7 +1,27 @@
-
-$shadow-bl-10:0px 0px 0px 0px var(--primary);
-
+$shadow-bl-10: 0px 0px 0px 0px var(--primary);
 
 @for $i from 1 through 10 {
-    $shadow-bl-10: $shadow-bl-10, +  $i+px $i+px 0px 0px var(--primary), ;
+  $shadow-bl-10: $shadow-bl-10, + $i + px $i + px 0px 0px var(--primary);
 }
+
+// GENERAL
+body{
+    font-family: var(--font-text);
+    font-size:16px;
+}
+
+// FONTS
+
+.font-title {
+  font-family: "Monoton", cursive;
+  letter-spacing: 2px;
+}
+
+.font-title-2 {
+  font-family: "font-title-2";
+}
+
+.font-text {
+  font-family: var(--font-text);
+}
+

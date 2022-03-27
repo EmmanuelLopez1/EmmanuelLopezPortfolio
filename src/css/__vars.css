@@ -22,16 +22,3 @@
   /* FONTS */
   --font-text:'Iceland', cursive;
 }
-
-.font-title{
-  font-family: 'Monoton', cursive;
-  letter-spacing: 2px;
-}
-
-.font-title-2{
-  font-family: 'font-title-2';
-}
-
-.font-text{
-  font-family: var(--font-text);
-}
