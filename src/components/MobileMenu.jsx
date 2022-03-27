@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/Mobile_menu.scss'
 
 //COMPONENTS
 
@@ -7,9 +8,9 @@ import React from 'react';
 import '../css/Mobile_menu.scss'
 
 
-export const Mobile_menu = ({ img, styles, menuList }) => {
+export const MobileMenu = ({styles, menuList }) => {
     return (
-        <div className={`${styles} Mobile_menu bg-slate-700 relative `}>
+        <div className={`${styles} Mobile_menu`}>
             <input type="checkbox" name="" id="mobile-menu" className="hidden" />
             <label htmlFor="mobile-menu" className="hover:cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="mobile-menu-icon">
@@ -17,7 +18,7 @@ export const Mobile_menu = ({ img, styles, menuList }) => {
                 </svg>
             </label>
 
-            <ul className="mobile-menu-list absolute bg-dark w-full top-full left-0 border-t border-light shadow-bl-10">
+            <ul className="mobile-menu-list absolute bg-dark w-full top-full left-0 border-t border-light shadow-bl-10 w-full">
                 {
                     menuList.map(el=>{
                         return <li key={el} className="text-light hover:cursor-pointer p-5 hover:bg-primary">{el}</li>
