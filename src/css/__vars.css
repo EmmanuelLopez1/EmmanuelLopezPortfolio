@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&display=swap');
+
+@font-face{
+  font-family:'monoton';
+  src: url('../fonts/monoton/Monoton-Regular.ttf');
+}
+
+@font-face{
+  font-family:'prometheus';
+  src: url('../fonts/prometheus/PROMETHEUS.ttf');
+}
+
+
 :root {
   --primary: #de004d;
   --secondary: #860029;
   --light: #f887ff;
   --dark: #321450;
   --darker: #29132e;
+
+  /* FONTS */
+  --font-title:'monoton';
+  --font-title-2:'prometheus';
+  --font-text:'Source Serif 4', sans-serif;
 }

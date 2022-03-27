@@ -16,7 +16,6 @@ export const Header = () => {
                 {/* HIDE MOBILE MENU WHEN SCREEN    SIZE IS MD */}
                 <MobileMenu styles='lg:hidden' menuList={menuList} />
 
-
                 <ul className="hidden lg:block">
                     {
                         menuList.map(el=>{
