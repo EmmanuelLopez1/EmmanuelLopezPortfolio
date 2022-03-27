@@ -19,7 +19,7 @@ export const MobileMenu = ({styles, menuList }) => {
             <ul className="mobile-menu-list absolute bg-dark w-full top-full left-0 border-t border-light shadow-bl-10 w-full">
                 {
                     menuList.map(el=>{
-                        return <li key={el} className="text-light text-2xl hover:cursor-pointer px-5 py-3 hover:bg-primary">{el}</li>
+                        return <li key={el} className="list-element text-light text-2xl hover:cursor-pointer px-5 py-3 hover:bg-primary">{el}</li>
                     })
                 }
             </ul>

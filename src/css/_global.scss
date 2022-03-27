@@ -4,6 +4,19 @@ $shadow-bl-10: 0px 0px 0px 0px var(--primary);
   $shadow-bl-10: $shadow-bl-10, + $i + px $i + px 0px 0px var(--primary);
 }
 
+$shadow-bl-10-light: 0px 0px 0px 0px var(--light);
+
+@for $i from 1 through 10 {
+  $shadow-bl-10-light: $shadow-bl-10-light, + $i + px $i + px 0px 0px var(--light);
+}
+
+$shadow-bl-10-darker: 0px 0px 0px 0px var(--darker);
+
+@for $i from 1 through 10 {
+  $shadow-bl-10-darker: $shadow-bl-10-darker, + $i + px $i + px 0px 0px var(--darker);
+}
+
+
 // GENERAL
 body{
     font-family: var(--font-text);
