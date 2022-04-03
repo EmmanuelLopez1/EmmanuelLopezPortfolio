@@ -11,9 +11,9 @@ export const Card = ({children, img, tecnologies})=>{
                         return <p className="border bg-light text-white p-1 px-3 my-2">{el}</p>
                     })}
                 </div>
-                <button className="border border-primary p-1 mt-2 w-full">
+                <a className="border border-primary p-1 mt-2 w-full">
                     mirar proyecto
-                </button>
+                </a>
             </div>
         </div>
     )
