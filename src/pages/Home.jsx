@@ -4,10 +4,12 @@ import '../css/Home.css'
 //COMPONENTS
 import { BgVideo } from "../components/BgVideo"
 import { Audio } from "../components/Audio"
+import {MiniCard} from "../components/MiniCard"
 // SOURCES
 import drinvingCar from '../assets/videos/drive-car.mp4';
 import audio from '../assets/Audio/resonance.mp3'
 import profileImg from '../assets/img/profile.jpg'
+import jsIcon from '../assets/icons/icons8-javascript-96.svg'
 
 export const Home = () => {
 
@@ -26,9 +28,40 @@ export const Home = () => {
                 </BgVideo>
             </main>
 
-            <section className="about_me">
+            <section className="about_me flex flex-col items-center w-10/12 mx-auto pt-12">
+                <div className="">
+                    <h2>About me</h2>
+                    <h3>Quien soy?</h3>
+                    <p>
+                        Hola y bienvenido, mi nombre es Emmanuel Licea, soy un desarrollador apasionado por la tecnologia, 
+                        tengo un ano de experiencia desarrollando aplicaciones FrontEnd,
+                        aunque tambien tengo conocimiento en backEnd.
+                    </p>
+                    <p>
+                        Me encanta mi trabajo y siempre que puedo intento aprender nuevas herramientas y mejorar mis conocimientos actuales.
+                    </p>
+                    <button className="">
+                        Mira mi cv
+                    </button>
+                </div>
+                <div className="pt-12">
+                    <h2 className="text-center">Skills</h2>
+                    <div className="flex">
+                        <MiniCard img={jsIcon}>
+                            Javascript
+                        </MiniCard>
 
+                        <MiniCard img={jsIcon}>
+                            Javascript
+                        </MiniCard>
+                    </div>
+                </div>
             </section>
+
+            <section className='projects'>
+                <h2>Mi trabajo</h2>
+                
+            </section>  
         </div>
     )
 }
