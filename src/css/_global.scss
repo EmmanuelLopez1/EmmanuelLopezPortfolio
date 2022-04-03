@@ -21,6 +21,7 @@ $shadow-bl-10-darker: 0px 0px 0px 0px var(--darker);
 body{
     font-family: var(--font-text);
     font-size:16px;
+    box-sizing: border-box;
 }
 
 // FONTS

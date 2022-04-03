@@ -4,8 +4,12 @@
 }
   
 
-#mobile-menu:checked ~ .mobile-menu-list{
+.mobile-menu-list{
     display: none;
+}
+
+#mobile-menu:checked ~ .mobile-menu-list{
+    display: block;
 }
 
 .mobile-menu-icon{

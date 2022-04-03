@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
+import '../css/components/BgVideo.css'
 
 
-export const BgVideo = ({url, styles}) => {
+export const BgVideo = ({url, styles, children}) => {
     return (
-        <ReactPlayer
-            url={url}
-            className={`${styles} react-player`}
-            widht='100%'
-            height='100%'
-            playing
-            loop
-            muted
-        />
+        <div className={`bg_video ${styles}`}>
+            <div className="bg_video_content">
+                <video className="bg_video_video" src={url} autoPlay muted loop></video>
+            </div>
+            {/* <div className="bg_video_overlay"></div> */}
+
+            {children}
+
+        </div>
     )
 }

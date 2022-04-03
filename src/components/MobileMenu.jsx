@@ -16,7 +16,7 @@ export const MobileMenu = ({styles, menuList }) => {
                 </svg>
             </label>
 
-            <ul className="mobile-menu-list absolute z-10 bg-dark w-full top-full left-0 border-t border-light shadow-bl-10 w-full">
+            <ul className="mobile-menu-list absolute z-20 bg-dark w-full top-full left-0 border-t border-light shadow-bl-10 w-full">
                 {
                     menuList.map(el=>{
                         return <li key={el} className="list-element text-light text-2xl hover:cursor-pointer px-5 py-3 hover:bg-primary">{el}</li>
