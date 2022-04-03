@@ -5,6 +5,7 @@ import '../css/Home.css'
 import { BgVideo } from "../components/BgVideo"
 import { Audio } from "../components/Audio"
 import {MiniCard} from "../components/MiniCard"
+import {Card} from "../components/Card"
 // SOURCES
 import drinvingCar from '../assets/videos/drive-car.mp4';
 import audio from '../assets/Audio/resonance.mp3'
@@ -58,9 +59,19 @@ export const Home = () => {
                 </div>
             </section>
 
-            <section className='projects'>
-                <h2>Mi trabajo</h2>
-                
+            <section className='projects mt-20 w-10/12 m-auto'>
+                <h2 className="text-center">Proyectos</h2>
+                <div className="    ">
+                    <Card img='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' tecnologies={['Javascript', 'react', 'node', 'solidity']}>
+                        Lil Nessians
+                    </Card>
+                    <Card img='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' tecnologies={['Javascript', 'react', 'node', 'solidity']}>
+                        Lil Giblis
+                    </Card>
+                    <Card img='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' tecnologies={['Javascript', 'react', 'node', 'solidity']}>
+                        Patagonia Rent
+                    </Card>
+                </div>
             </section>  
         </div>
     )
