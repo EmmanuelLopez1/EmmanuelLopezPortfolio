@@ -22,6 +22,18 @@ $shadow-bl-5-white: 0px 0px 0px 0px white;
   $shadow-bl-5-white: $shadow-bl-5-white, + $i + px $i + px 0px 0px white;
 }
 
+$shadow-bl-5-primary: 0px 0px 0px 0px var(--primary);
+@for $i from 1 through 5 {
+  $shadow-bl-5-primary: $shadow-bl-5-primary, + $i + px $i + px 0px 0px var(--primary);
+}
+
+$shadow-back-5-primary: 0px 0px 0px 1px var(--primary);
+@for $i from 1 through 5 {
+  $shadow-back-5-primary: $shadow-back-5-primary, + 0px  $i * 2 + px  0px  $i * 2 + px var(--primary);
+}
+
+
+
 
 // GENERAL
 body{
@@ -47,6 +59,19 @@ body{
 // BOX-SHADOW
 .shadow-bl-white {
   box-shadow: $shadow-bl-5-white;
+}
+
+.shadow-bl-10-primary{
+  box-shadow: $shadow-bl-10;
+}
+
+.shadow-bl-5-primary{
+  box-shadow: $shadow-bl-5-primary;
+}
+
+
+.shadow-back-5-primary{
+  box-shadow: $shadow-back-5-primary;
 }
 
 

@@ -97,8 +97,9 @@ export const Home = () => {
             <section className='projects mt-20 w-10/12 m-auto'>
                 <h2 className="text-center text-3xl font-title font-neon-2">Proyectos</h2>
                 <div className="">
-                    <Card img='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' tecnologies={['Javascript', 'react', 'node', 'solidity']}>
-                        Lil Nessians
+                    <Card img='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' 
+                        tecnologies={['Javascript', 'react js', 'solidity', 'hardhat', 'python', 'node js', 'mocha', 'chai']}>
+                        <h4 className="text-2xl">Lil Giblis:</h4>
                     </Card>
                     <Card img='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' tecnologies={['Javascript', 'react', 'node', 'solidity']}>
                         Lil Giblis
