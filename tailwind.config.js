@@ -9,6 +9,9 @@ module.exports = {
         light:'#f887ff',
         dark:'#321450',
         darker: '#29132e'
+      },
+      text: {
+        subtitle:'25px',
       }
     }
   },

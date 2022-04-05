@@ -16,8 +16,12 @@
   --primary: #de004d;
   --secondary: #860029;
   --light: #f887ff;
+  --light2:#ffe69d;
   --dark: #321450;
   --darker: #29132e;
+
+  --prueba:#6287f8;
+
 
   /* FONTS */
   --font-text:'Iceland', cursive;

@@ -16,6 +16,12 @@ $shadow-bl-10-darker: 0px 0px 0px 0px var(--darker);
   $shadow-bl-10-darker: $shadow-bl-10-darker, + $i + px $i + px 0px 0px var(--darker);
 }
 
+$shadow-bl-5-white: 0px 0px 0px 0px white;
+
+@for $i from 1 through 5 {
+  $shadow-bl-5-white: $shadow-bl-5-white, + $i + px $i + px 0px 0px white;
+}
+
 
 // GENERAL
 body{
@@ -25,7 +31,6 @@ body{
 }
 
 // FONTS
-
 .font-title {
   font-family: "Monoton", cursive;
   letter-spacing: 2px;
@@ -39,3 +44,30 @@ body{
   font-family: var(--font-text);
 }
 
+// BOX-SHADOW
+.shadow-bl-white {
+  box-shadow: $shadow-bl-5-white;
+}
+
+
+
+// NEON STYLE
+.font-neon-1{
+  text-transform: uppercase;
+  text-shadow: 0 0 80px var(--light),0 0 30px var(--light),0 0 6px var(--light);
+  color: var(--light);
+}
+
+.font-neon-2{
+  color: #fff;
+  text-shadow: 0 0 80px var(--primary),0 0 30px var(--primary),0 0 6px var(--primary);
+}
+
+.font-neon-3{
+  text-shadow: 0 0 80px red,0 0 30px red,0 0 6px red;
+  color: var(--light);
+}
+
+.font-neon-prueba{
+  text-shadow: 0 0 10px var(--prueba);
+}
