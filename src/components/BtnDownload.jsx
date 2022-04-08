@@ -1,10 +1,9 @@
 import React from 'react';
-import doc from '../assets/documents/Emmanuel_Lopez_React_Js_Developer.pdf'
 
 export const BtnDownload = ({path})=>{
 
     const downloadFile = ()=>{
-        return window.location.href=`${doc}`
+        return window.location.href=`${path}`
     }
 
     return(

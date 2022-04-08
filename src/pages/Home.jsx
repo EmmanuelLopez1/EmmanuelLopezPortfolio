@@ -6,10 +6,13 @@ import { BgVideo } from "../components/BgVideo"
 import { Audio } from "../components/Audio"
 import { MiniCard } from "../components/MiniCard"
 import { Card } from "../components/Card"
-import { Footer } from "../components/Footer"
+import {BtnDownload} from "../components/BtnDownload"
+
 // SOURCES
 import drinvingCar from '../assets/videos/drive-car.mp4';
 import audio from '../assets/Audio/resonance.mp3'
+import curriculum from '../assets/documents/Emmanuel_Lopez_React_Js_Developer.pdf'
+
 
 // ICONS
 import jsIcon from '../assets/icons/js.png'
@@ -63,11 +66,7 @@ export const Home = () => {
                         <p className='mt-4 text-xl'>
                             Me encanta mi trabajo y siempre que puedo intento aprender nuevas herramientas y mejorar mis conocimientos actuales.
                         </p>
-                        <button className="border border-white rounded px-3 py-2 mt-6 
-                    shadow-bl-white text-xl m-auto block
-                    hover:bg-primary hover:border-primary transition-all duration-500">
-                            Descargar cv
-                        </button>
+                        <BtnDownload path={curriculum}/>
                     </div>
                     <div className="pt-12 w-full lg:w-6/12 xl:w-5/12 mt-8 lg:mt-0 lg:pt-0">
                         <h2 className="text-2xl font-neon-1">Skills:</h2>
