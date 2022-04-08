@@ -56,7 +56,7 @@ export const Home = () => {
                 </BgVideo>
             </main>
 
-            <section className='mt-12'>
+            <section id="about-me" className='mt-12'>
                 <h2 className="text-3xl font-title text-center font-neon-2 lg:m-auto block">About me</h2>
                 <div className="about_me flex flex-col items-center w-10/12 mx-auto 
                                 pt-12 lg:flex lg:flex-row lg:justify-between lg:items-start">
@@ -113,7 +113,7 @@ export const Home = () => {
                 </div>
             </section>
 
-            <section className='projects mt-20 w-11/12 m-auto lg:w-12/12'>
+            <section id='projects' className='projects mt-20 w-11/12 m-auto lg:w-12/12'>
                 <h2 className="text-center text-3xl font-title font-neon-2 ">Proyectos</h2>
                 <div className="md:flex flex-wrap gap-4 mt-8">
                     <Card img={lilGibli}
@@ -160,11 +160,7 @@ export const Home = () => {
                 </div>
             </section>
 
-            <section className='Hobbies'>
-
-            </section>
-
-            <section className='contact mt-16 mb-16'>
+            <section id="contact" className='contact mt-16 mb-16'>
                 <h2 className='text-3xl font-title font-neon-2 text-center'>Contacto</h2>
                 <div className="flex flex-col items-center mt-10">
                     <MiniCard >

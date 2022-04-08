@@ -7,6 +7,7 @@ import '../css/Mobile_menu.scss'
 
 
 export const MobileMenu = ({styles, menuList }) => {
+    const paths = ['home', 'about-me', 'projects', 'contact']
     return (
         <div className={`${styles} Mobile_menu`}>
             <input type="checkbox" name="" id="mobile-menu" className="hidden" />
@@ -18,8 +19,10 @@ export const MobileMenu = ({styles, menuList }) => {
 
             <ul className="mobile-menu-list absolute z-20 bg-dark w-full top-full left-0 border-t border-light shadow-bl-10 w-full">
                 {
-                    menuList.map(el=>{
-                        return <li key={el} className="list-element text-light text-2xl hover:cursor-pointer px-5 py-3 hover:bg-primary">{el}</li>
+                    menuList.map((el, index)=>{
+                        return <li key={el} className="list-element text-light text-2xl hover:cursor-pointer  hover:bg-primary">
+                            <a href={`#${paths[index]}`} className="w-full block px-5 py-3">{el}</a>
+                        </li>
                     })
                 }
             </ul>
