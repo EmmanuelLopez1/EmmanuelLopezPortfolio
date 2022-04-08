@@ -137,7 +137,8 @@ export const Home = () => {
                     </Card>
                     <Card img={softwareInsights}
                         tecnologies={['Html5', 'CSS3', 'Javascript', 'Adobe Ilustrator']}
-                        cardStyles='w-72 md:w-64 '>
+                        cardStyles='w-72 md:w-64'
+                        path="https://emmanuellopez1.github.io/Software-Insights/">
                         <h4 className="text-2xl white">Estado: inconcluso</h4>
                         <h4 className="text-2xl text-primary">Software insigths:</h4>
                         <p className="text-xl ml-3">
@@ -167,25 +168,25 @@ export const Home = () => {
                 <h2 className='text-3xl font-title font-neon-2 text-center'>Contacto</h2>
                 <div className="flex flex-col items-center mt-10">
                     <MiniCard >
-                        <a href="" className='text-center text-2xl flex hover:underline decoration-primary'>
+                        <a href="https://wa.link/b3xbv1" target="_blank" className='text-center text-2xl flex hover:underline decoration-primary'>
                             Enviar mensaje
                             <img src={whatsappIcon} alt="" className='w-8 ml-4' />
                         </a>
                     </MiniCard>
                     <MiniCard styles='mt-5'>
-                        <a href="" className='text-center text-2xl flex hover:underline decoration-primary'>
+                        <a href="tel:+523411270862" className='text-center text-2xl flex hover:underline decoration-primary'>
                             Llamar
                             <img src={mobileIcon} alt="" className='w-8 ml-4' />
                         </a>
                     </MiniCard>
                     <MiniCard styles='mt-5'>
-                        <a href="" className='text-center text-2xl flex hover:underline decoration-primary'>
+                        <a href="mailto:maximino33@hotmail.com" className='text-center text-2xl flex hover:underline decoration-primary'>
                             Enviar un mail
                             <img src={mailIcon} alt="" className='w-8 ml-4' />
                         </a>
                     </MiniCard>
                     <MiniCard styles='mt-5'>
-                        <a href="" className='text-center text-2xl flex hover:underline 
+                        <a href="https://www.linkedin.com/in/emmanuel-lopez-licea-472835194/" className='text-center text-2xl flex hover:underline 
                         transition-all duration-500 decoration-primary'>
                             Mira mi LinkedIn
                             <img src={linkedIcon} alt="" className='w-8 ml-4' />
