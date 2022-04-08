@@ -143,25 +143,26 @@ export const Home = () => {
                 <h2 className='text-3xl font-title font-neon-2 text-center'>Contacto</h2>
                 <div className="flex flex-col items-center mt-10">
                     <MiniCard >
-                        <a href="" className='text-center text-2xl flex hover:underline'>
+                        <a href="" className='text-center text-2xl flex hover:underline decoration-primary'>
                             Enviar mensaje
                             <img src={whatsappIcon} alt="" className='w-8 ml-4'/>
                         </a>
                     </MiniCard>
                     <MiniCard styles='mt-5'>
-                        <a href="" className='text-center text-2xl flex hover:underline'>
+                        <a href="" className='text-center text-2xl flex hover:underline decoration-primary'>
                             Llamar
                             <img src={mobileIcon} alt="" className='w-8 ml-4'/>
                         </a>
                     </MiniCard>
                     <MiniCard styles='mt-5'>
-                        <a href="" className='text-center text-2xl flex hover:underline'>
+                        <a href="" className='text-center text-2xl flex hover:underline decoration-primary'>
                             Enviar un mail
                             <img src={mailIcon} alt="" className='w-8 ml-4'/>
                         </a>
                     </MiniCard>
                     <MiniCard styles='mt-5'>
-                        <a href="" className='text-center text-2xl flex hover:underline'>
+                        <a href="" className='text-center text-2xl flex hover:underline 
+                        transition-all duration-500 decoration-primary'>
                             Mira mi LinkedIn
                             <img src={linkedIcon} alt="" className='w-8 ml-4'/>
                         </a>
