@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Card = ({children, img, tecnologies, cardStyles})=>{
+export const Card = ({children, img, tecnologies, cardStyles, path})=>{
     return(
         <div className={`${cardStyles} card m-auto mt-8 rounded-lg 
         overflow-hidden shadow-bl-5-primary`}>
@@ -13,7 +13,8 @@ export const Card = ({children, img, tecnologies, cardStyles})=>{
                         return <li className="text-white px-3 text-xl">{el}</li>
                     })}
                 </ul>
-                <a className="border border-primary rounded w-full block 
+                
+                <a href={path} target="_blank" className="border border-primary rounded w-full block 
                             mt-4 p-2 text-xl text-center hover:bg-primary 
                             hover:cursor-pointer ease-in duration-300 ">
                     mirar proyecto

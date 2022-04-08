@@ -7,11 +7,15 @@ import { Audio } from "../components/Audio"
 import { MiniCard } from "../components/MiniCard"
 import { Card } from "../components/Card"
 import {BtnDownload} from "../components/BtnDownload"
+import {CardInfo} from "../components/CardInfo"
 
 // SOURCES
 import drinvingCar from '../assets/videos/drive-car.mp4';
 import audio from '../assets/Audio/resonance.mp3'
 import curriculum from '../assets/documents/Emmanuel_Lopez_React_Js_Developer.pdf'
+
+// IMAGES
+import softwareInsights from '../assets/img/softwareInsights.io.png'
 
 
 // ICONS
@@ -46,7 +50,7 @@ export const Home = () => {
 
                         </div>
                         <h3 className="text-4xl text-white mt-10 font-neon-2">Hola!</h3>
-                        <h2 className="text-5xl text-white font-neon-2">Soy Emmanuel Licea</h2>
+                        <h2 className="text-5xl text-white font-neon-2">Soy Emmanuel Lopez</h2>
                         <h2 className="text-4xl text-white font-neon-2">FrontEnd Developer</h2>
                     </div>
                 </BgVideo>
@@ -109,12 +113,13 @@ export const Home = () => {
                 </div>
             </section>
 
-            <section className='projects mt-20 w-10/12 m-auto lg:w-12/12'>
+            <section className='projects mt-20 w-11/12 m-auto lg:w-12/12'>
                 <h2 className="text-center text-3xl font-title font-neon-2 ">Proyectos</h2>
-                <div className="md:flex flex-wrap lg:justify-around">
+                <div className="md:flex flex-wrap gap-4 mt-8">
                     <Card img={lilGibli}
                         tecnologies={['Javascript', 'React js', 'Tailwind', 'Solidity', 'Hardhat', 'Python', 'Node js', 'Mocha', 'Chai', 'Ethers js']}
-                        cardStyles='w-72 lg:mx-5'>
+                        cardStyles='w-72 md:w-64'
+                        path='https://lilgibli.com/'>
                         <h4 className="text-2xl text-primary">Lil Giblis:</h4>
                         <p className="text-xl ml-3">
                             Proyecto NFT, tuve la oportunidad de participar como FrontEnd developer,
@@ -123,15 +128,27 @@ export const Home = () => {
                     </Card>
                     <Card img={lilNessians}
                         tecnologies={['Javascript', 'React js', 'Node', 'Solidity', 'Tailwind']}
-                        cardStyles='w-72 lg:mx-5'>
+                        cardStyles='w-72 md:w-64'
+                        path="https://lilnessians.com/">
                         <h4 className="text-2xl text-primary">Lil Nessians:</h4>
                         <p className="text-xl ml-3">
                             Proyecto NFT, tuve la oportunidad de participar como FrontEnd developer.
                         </p>
                     </Card>
+                    <Card img={softwareInsights}
+                        tecnologies={['Html5', 'CSS3', 'Javascript', 'Adobe Ilustrator']}
+                        cardStyles='w-72 md:w-64 '>
+                        <h4 className="text-2xl white">Estado: inconcluso</h4>
+                        <h4 className="text-2xl text-primary">Software insigths:</h4>
+                        <p className="text-xl ml-3">
+                            Landing page, adapte una plantilla preseleccionada a las necesidades de la empresa,
+                            disene imagenes svg para usarlas en la aplicacion.
+                        </p>
+                    </Card>
                     <Card img={patagoniaRent}
                         tecnologies={['Html5', 'CSS3', 'Javascript', 'Bootstrap']}
-                        cardStyles='w-72 lg:mx-5 md:mt-20 lg:mt-0'>
+                        cardStyles='w-72 md:w-64'
+                        path="http://patagoniarent.com.ar/">
                         <h4 className="text-2xl text-primary ">Patagonia Rent:</h4>
                         <p className="text-xl ml-3">
                             Landing page, tuve la oportunidad de desarrollar el FrontEnd,
