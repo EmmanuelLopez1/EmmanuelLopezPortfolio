@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import '../css/Home.css'
 
 //COMPONENTS
@@ -6,9 +6,9 @@ import { BgVideo } from "../components/BgVideo"
 import { Audio } from "../components/Audio"
 import { MiniCard } from "../components/MiniCard"
 import { Card } from "../components/Card"
-import {BtnDownload} from "../components/BtnDownload"
-import {CardInfo} from "../components/CardInfo"
-import {Alert} from "../components/Alert"
+import { BtnDownload } from "../components/BtnDownload"
+import { CardInfo } from "../components/CardInfo"
+import { Alert } from "../components/Alert"
 
 // SOURCES
 import drinvingCar from '../assets/videos/drive-car.mp4';
@@ -44,15 +44,7 @@ export const Home = () => {
 
     return (
         <div className="Home overflow-hidden bg-dark text-white">
-            <Alert styles='z-30 top-0 min-h-screen flex flex-col justify-center bg-primary' active='true'>  
-                <h4 className="text-white text-center text-6xl">Atencion !!!</h4>
-                <p className="text-white text-2xl mt-10">
-                    Este sitio se encuentra actualmente en desarrollo,
-                    por ende es muy probable que encuentre bugs, cosas un poco fuera de su sitio y este poco optimizado.
-                </p>
-                <p className="text-white text-2xl mt-10">
-                    Sim embargo me he esforzado por mantener una calidad minima para poder presentarlo, agradezco su comprension.
-                </p>
+            <Alert styles='z-30 top-0 min-h-screen flex flex-col justify-center bg-primary' active='true'>
                 <h4 className="text-white text-center text-6xl mt-10">Attention !!!</h4>
                 <p className="text-white text-2xl mt-10">
                     This site is currently under development, therefore it is very likely that you will find bugs, things a little out of it site and it is not very optimized.
@@ -61,8 +53,16 @@ export const Home = () => {
                     My apologies if you are an english speaker, i have not translated this site yet.
                 </p>
                 <p className="text-white text-2xl mt-10">
-                    However, I have tried to maintain a minimum quality to be able to present it, 
+                    However, I have tried to maintain a minimum quality to be able to present it,
                     and the site has a very simple structure, I appreciate your understanding.
+                </p>
+                <h4 className="text-white text-center text-6xl">Atencion !!!</h4>
+                <p className="text-white text-2xl mt-10">
+                    Este sitio se encuentra actualmente en desarrollo,
+                    por ende es muy probable que encuentre bugs, cosas un poco fuera de su sitio y este poco optimizado.
+                </p>
+                <p className="text-white text-2xl mt-10">
+                    Sim embargo me he esforzado por mantener una calidad minima para poder presentarlo, agradezco su comprension.
                 </p>
             </Alert>
             <main className="">
@@ -92,7 +92,7 @@ export const Home = () => {
                         <p className='mt-4 text-xl'>
                             Me encanta mi trabajo y siempre que puedo intento aprender nuevas herramientas y mejorar mis conocimientos actuales.
                         </p>
-                        <BtnDownload path={curriculum} styles="mt-5"/>
+                        <BtnDownload path={curriculum} styles="mt-5" />
                     </div>
                     <div className="pt-12 w-full lg:w-6/12 xl:w-5/12 mt-8 lg:mt-0 lg:pt-0">
                         <h2 className="text-2xl font-neon-1">Skills:</h2>
