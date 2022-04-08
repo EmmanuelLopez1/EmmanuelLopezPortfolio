@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/css/main.0b4912d1.css",
+    "main.js": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/js/main.557dc3c0.js",
+    "static/media/drive-car.mp4": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/drive-car.c10ace02ab953274cd21.mp4",
+    "static/media/patagonia-rent.JPG": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/patagonia-rent.fa9539dcbd8ef941fc9e.JPG",
+    "static/media/resonance.mp3": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/resonance.8cbcdd503f5af3358f38.mp3",
+    "static/media/softwareInsights.io.png": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/softwareInsights.io.27d4e5bd393060ff6e50.png",
+    "static/media/LilNessians.jpg": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/LilNessians.aa2cab8166ab388c5fc8.jpg",
+    "static/media/lilGibli.png": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/lilGibli.06216b110ce8fcbc6e64.png",
+    "static/media/Emmanuel_Lopez_React_Js_Developer.pdf": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/Emmanuel_Lopez_React_Js_Developer.70f6f6d319c491f3251d.pdf",
+    "static/media/profile.jpg": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/profile.40811ebe27eea1562e08.jpg",
+    "static/media/PROMETHEUS.ttf": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/PROMETHEUS.e3f97d79d3b8c21e60de.ttf",
+    "static/media/react.png": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/node-js.png": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/node-js.e328955d6bbbf3ebc72b.png",
+    "static/media/github.png": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/github.22cfdd1cba253783ce51.png",
+    "static/media/html.png": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css-3.png": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/EmmanuelLopez1/EmmanuelLopezPortfolio/index.html",
+    "static/media/hamburger_menu.svg": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/media/hamburger_menu.314e85afc7baef53c50b8df6face6f0d.svg",
+    "main.0b4912d1.css.map": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/css/main.0b4912d1.css.map",
+    "main.557dc3c0.js.map": "/EmmanuelLopez1/EmmanuelLopezPortfolio/static/js/main.557dc3c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b4912d1.css",
+    "static/js/main.557dc3c0.js"
+  ]
+}
