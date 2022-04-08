@@ -12,10 +12,10 @@ export const Alert = ({ children, active, styles }) => {
         <>
             {close &&
                 <div className={`${styles} w-full absolute p-10`}>
-                    {children}
                     <button className="text-white relative top-0 right-0 text-5xl hover:text-dark mt-10" onClick={closeAlert}>
                         X
                     </button>
+                    {children}
                 </div>
             }
         </>
