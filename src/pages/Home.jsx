@@ -110,11 +110,12 @@ export const Home = () => {
                 </div>
             </section>
 
-            <section className='projects mt-20 w-10/12 m-auto'>
-                <h2 className="text-center text-3xl font-title font-neon-2">Proyectos</h2>
-                <div className="">
+            <section className='projects mt-20 w-10/12 m-auto lg:w-12/12'>
+                <h2 className="text-center text-3xl font-title font-neon-2 ">Proyectos</h2>
+                <div className="md:flex flex-wrap lg:justify-around">
                     <Card img={lilGibli}
-                        tecnologies={['Javascript', 'React js', 'Tailwind', 'Solidity', 'Hardhat', 'Python', 'Node js', 'Mocha', 'Chai', 'Ethers js']}>
+                        tecnologies={['Javascript', 'React js', 'Tailwind', 'Solidity', 'Hardhat', 'Python', 'Node js', 'Mocha', 'Chai', 'Ethers js']}
+                        cardStyles='w-72 lg:mx-5'>
                         <h4 className="text-2xl text-primary">Lil Giblis:</h4>
                         <p className="text-xl ml-3">
                             Proyecto NFT, tuve la oportunidad de participar como FrontEnd developer,
@@ -122,15 +123,17 @@ export const Home = () => {
                         </p>
                     </Card>
                     <Card img={lilNessians}
-                        tecnologies={['Javascript', 'React js', 'Node', 'Solidity', 'Tailwind']}>
+                        tecnologies={['Javascript', 'React js', 'Node', 'Solidity', 'Tailwind']}
+                        cardStyles='w-72 lg:mx-5'>
                         <h4 className="text-2xl text-primary">Lil Nessians:</h4>
                         <p className="text-xl ml-3">
                             Proyecto NFT, tuve la oportunidad de participar como FrontEnd developer.
                         </p>
                     </Card>
                     <Card img={patagoniaRent}
-                        tecnologies={['Html5', 'CSS3', 'Javascript', 'Bootstrap']}>
-                        <h4 className="text-2xl text-primary">Patagonia Rent:</h4>
+                        tecnologies={['Html5', 'CSS3', 'Javascript', 'Bootstrap']}
+                        cardStyles='w-72 lg:mx-5 md:mt-20 lg:mt-0'>
+                        <h4 className="text-2xl text-primary ">Patagonia Rent:</h4>
                         <p className="text-xl ml-3">
                             Landing page, tuve la oportunidad de desarrollar el FrontEnd,
                             optimizar los recursos, asesorar al cliente y

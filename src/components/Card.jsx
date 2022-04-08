@@ -1,8 +1,9 @@
 import React from 'react';
 
-export const Card = ({children, img, tecnologies})=>{
+export const Card = ({children, img, tecnologies, cardStyles})=>{
     return(
-        <div className="card w-9/12 m-auto mt-8 rounded-lg overflow-hidden shadow-bl-5-primary">
+        <div className={`${cardStyles} card m-auto mt-8 rounded-lg 
+        overflow-hidden shadow-bl-5-primary`}>
             <img src={img} alt="" className="w-full max-h-72"/>
             <div className="card_info p-5">
                 {children}
