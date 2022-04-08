@@ -44,7 +44,7 @@ export const Home = () => {
 
     return (
         <div className="Home overflow-hidden bg-dark text-white">
-            <Alert styles='z-30 top-0 h-screen flex flex-col justify-center bg-primary' active='true'>  
+            <Alert styles='z-30 top-0 min-h-screen flex flex-col justify-center bg-primary' active='true'>  
                 <h4 className="text-white text-center text-6xl">Atencion !!!</h4>
                 <p className="text-white text-2xl mt-10">
                     Este sitio se encuentra actualmente en desarrollo,
