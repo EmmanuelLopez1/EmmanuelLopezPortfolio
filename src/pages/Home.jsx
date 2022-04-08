@@ -4,8 +4,9 @@ import '../css/Home.css'
 //COMPONENTS
 import { BgVideo } from "../components/BgVideo"
 import { Audio } from "../components/Audio"
-import {MiniCard} from "../components/MiniCard"
-import {Card} from "../components/Card"
+import { MiniCard } from "../components/MiniCard"
+import { Card } from "../components/Card"
+import { Footer } from "../components/Footer"
 // SOURCES
 import drinvingCar from '../assets/videos/drive-car.mp4';
 import audio from '../assets/Audio/resonance.mp3'
@@ -20,6 +21,16 @@ import sassIcon from '../assets/icons/sass.png'
 import htmlIcon from '../assets/icons/html.png'
 import cssIcon from '../assets/icons/css-3.png'
 import solidityIcon from '../assets/icons/solidity.png'
+import whatsappIcon from '../assets/icons/whatsapp.png'
+import linkedIcon from '../assets/icons/linkedin.png'
+import mobileIcon from '../assets/icons/mobile.png'
+import mailIcon from '../assets/icons/mail.png'
+
+
+// IMAGES
+import lilGibli from '../assets/img/lilGibli.png'
+import lilNessians from '../assets/img/LilNessians.jpg'
+import patagoniaRent from '../assets/img/patagonia-rent.JPG'
 
 export const Home = () => {
 
@@ -43,15 +54,15 @@ export const Home = () => {
                     <h2 className="text-3xl font-title text-center font-neon-2">About me</h2>
                     <h3 className="mt-8 text-2xl font-neon-1">Quien soy?</h3>
                     <p className="mt-4 text-xl">
-                        Hola y bienvenido, mi nombre es Emmanuel Licea, soy un desarrollador apasionado por la tecnologia, 
-                        tengo un ano de experiencia desarrollando aplicaciones FrontEnd,
-                        aunque tambien tengo conocimiento en backEnd.
+                        Hola y bienvenido, mi nombre es Emmanuel Lopez, soy un desarrollador apasionado por la tecnologia,
+                        tengo un año de experiencia desarrollando aplicaciones FrontEnd,
+                        y algunas funcionalidades en el backEnd.
                     </p>
                     <p className='mt-4 text-xl'>
                         Me encanta mi trabajo y siempre que puedo intento aprender nuevas herramientas y mejorar mis conocimientos actuales.
                     </p>
                     <button className="border border-white rounded px-3 py-2 mt-6 shadow-bl-white text-xl m-auto block">
-                        Mira mi cv
+                        Descargar cv
                     </button>
                 </div>
                 <div className="pt-12 w-full">
@@ -97,15 +108,29 @@ export const Home = () => {
             <section className='projects mt-20 w-10/12 m-auto'>
                 <h2 className="text-center text-3xl font-title font-neon-2">Proyectos</h2>
                 <div className="">
-                    <Card img='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' 
-                        tecnologies={['Javascript', 'react js', 'solidity', 'hardhat', 'python', 'node js', 'mocha', 'chai']}>
-                        <h4 className="text-2xl">Lil Giblis:</h4>
+                    <Card img={lilGibli}
+                        tecnologies={['Javascript', 'React js', 'Tailwind', 'Solidity', 'Hardhat', 'Python', 'Node js', 'Mocha', 'Chai', 'Ethers js']}>
+                        <h4 className="text-2xl text-primary">Lil Giblis:</h4>
+                        <p className="text-xl ml-3">
+                            Proyecto NFT, tuve la oportunidad de participar como FrontEnd developer,
+                            y en parte del codigo backEnd.
+                        </p>
                     </Card>
-                    <Card img='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' tecnologies={['Javascript', 'react', 'node', 'solidity']}>
-                        Lil Giblis
+                    <Card img={lilNessians}
+                        tecnologies={['Javascript', 'React js', 'Node', 'Solidity', 'Tailwind']}>
+                        <h4 className="text-2xl text-primary">Lil Nessians:</h4>
+                        <p className="text-xl ml-3">
+                            Proyecto NFT, tuve la oportunidad de participar como FrontEnd developer.
+                        </p>
                     </Card>
-                    <Card img='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' tecnologies={['Javascript', 'react', 'node', 'solidity']}>
-                        Patagonia Rent
+                    <Card img={patagoniaRent} 
+                        tecnologies={['Html5', 'CSS3', 'Javascript', 'Bootstrap']}>
+                        <h4 className="text-2xl text-primary">Patagonia Rent:</h4>
+                        <p className="text-xl ml-3">
+                            Landing page, tuve la oportunidad de desarrollar el FrontEnd,
+                            optimizar los recursos, asesorar al cliente y 
+                            llevar la aplicacion a produccion.
+                        </p>
                     </Card>
                 </div>
             </section>
@@ -114,23 +139,35 @@ export const Home = () => {
 
             </section>
 
-            <section className='contact'>
-                <h2>Contacto</h2>
-                <div className="">
+            <section className='contact mt-16 mb-16'>
+                <h2 className='text-3xl font-title font-neon-2 text-center'>Contacto</h2>
+                <div className="flex flex-col items-center mt-10">
                     <MiniCard >
-                        <a href="">Whatsapp</a>
+                        <a href="" className='text-center text-2xl flex hover:underline'>
+                            Enviar mensaje
+                            <img src={whatsappIcon} alt="" className='w-8 ml-4'/>
+                        </a>
                     </MiniCard>
-                    <MiniCard >
-                        <a href="">Phone</a>
+                    <MiniCard styles='mt-5'>
+                        <a href="" className='text-center text-2xl flex hover:underline'>
+                            Llamar
+                            <img src={mobileIcon} alt="" className='w-8 ml-4'/>
+                        </a>
                     </MiniCard>
-                    <MiniCard >
-                        <a href="">Correo</a>
+                    <MiniCard styles='mt-5'>
+                        <a href="" className='text-center text-2xl flex hover:underline'>
+                            Enviar un mail
+                            <img src={mailIcon} alt="" className='w-8 ml-4'/>
+                        </a>
                     </MiniCard>
-                    <MiniCard >
-                        <a href="">LinkedIn</a>
+                    <MiniCard styles='mt-5'>
+                        <a href="" className='text-center text-2xl flex hover:underline'>
+                            Mira mi LinkedIn
+                            <img src={linkedIcon} alt="" className='w-8 ml-4'/>
+                        </a>
                     </MiniCard>
                 </div>
-            </section>  
+            </section>
         </div>
     )
 }

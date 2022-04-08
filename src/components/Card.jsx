@@ -3,15 +3,18 @@ import React from 'react';
 export const Card = ({children, img, tecnologies})=>{
     return(
         <div className="card w-9/12 m-auto mt-8 rounded-lg overflow-hidden shadow-bl-5-primary">
-            <img src={img} alt="" className="w-full"/>
+            <img src={img} alt="" className="w-full max-h-72"/>
             <div className="card_info p-5">
                 {children}
-                <div className="tecnologies flex flex-wrap justify-around my-5">
+                <h4 className="mt-3 text-2xl text-primary">tecnologias usadas:</h4>
+                <ul className="tecnologies flex flex-wrap">
                     {tecnologies && tecnologies.map(el=>{
-                        return <p className="border bg-primary rounded text-white p-1 px-3 my-2">{el}</p>
+                        return <li className="text-white px-3 text-xl">{el}</li>
                     })}
-                </div>
-                <a className="border border-primary p-1 mt-2 w-full">
+                </ul>
+                <a className="border border-primary rounded w-full block 
+                            mt-4 p-2 text-xl text-center hover:bg-primary 
+                            hover:cursor-pointer ease-in duration-300 ">
                     mirar proyecto
                 </a>
             </div>

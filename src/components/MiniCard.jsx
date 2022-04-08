@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const MiniCard = ({children, img, imgStyles})=>{
+export const MiniCard = ({children, img, imgStyles, styles})=>{
     return(
-        <div className="">
+        <div className={styles}>
             <img src={img} alt="" className={`${imgStyles}`}/>
             {children}
         </div>
