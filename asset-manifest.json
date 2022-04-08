@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EmmanuelLopezPortfolio/static/css/main.c6ec24bc.css",
-    "main.js": "/EmmanuelLopezPortfolio/static/js/main.df52fe66.js",
+    "main.css": "/EmmanuelLopezPortfolio/static/css/main.b7b00419.css",
+    "main.js": "/EmmanuelLopezPortfolio/static/js/main.2fd995bb.js",
     "static/media/drive-car.mp4": "/EmmanuelLopezPortfolio/static/media/drive-car.c10ace02ab953274cd21.mp4",
     "static/media/patagonia-rent.JPG": "/EmmanuelLopezPortfolio/static/media/patagonia-rent.fa9539dcbd8ef941fc9e.JPG",
     "static/media/resonance.mp3": "/EmmanuelLopezPortfolio/static/media/resonance.8cbcdd503f5af3358f38.mp3",
@@ -19,11 +19,11 @@
     "static/media/js.png": "/EmmanuelLopezPortfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/EmmanuelLopezPortfolio/index.html",
     "static/media/hamburger_menu.svg": "/EmmanuelLopezPortfolio/static/media/hamburger_menu.314e85afc7baef53c50b8df6face6f0d.svg",
-    "main.c6ec24bc.css.map": "/EmmanuelLopezPortfolio/static/css/main.c6ec24bc.css.map",
-    "main.df52fe66.js.map": "/EmmanuelLopezPortfolio/static/js/main.df52fe66.js.map"
+    "main.b7b00419.css.map": "/EmmanuelLopezPortfolio/static/css/main.b7b00419.css.map",
+    "main.2fd995bb.js.map": "/EmmanuelLopezPortfolio/static/js/main.2fd995bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6ec24bc.css",
-    "static/js/main.df52fe66.js"
+    "static/css/main.b7b00419.css",
+    "static/js/main.2fd995bb.js"
   ]
 }
