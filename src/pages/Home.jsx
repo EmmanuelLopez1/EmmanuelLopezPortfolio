@@ -88,9 +88,7 @@ export const Home = () => {
                     <div className="lg:w-5/12 mt-8 lg:mt-0">
                         <h3 className="text-2xl font-neon-1">Quien soy?</h3>
                         <p className="mt-4 text-xl">
-                            Hola y bienvenido, mi nombre es Emmanuel Lopez, soy un desarrollador apasionado por la tecnologia,
-                            tengo un año de experiencia desarrollando aplicaciones FrontEnd,
-                            y algunas funcionalidades en el backEnd.
+                        Hola y bienvenido, mi nombre es Emmanuel López, soy un desarrollador apasionado por la tecnología, tengo un año de experiencia desarrollando aplicaciones FrontEnd, y algunas funcionalidades en el BackEnd.
                         </p>
                         <p className='mt-4 text-xl'>
                             Me encanta mi trabajo y siempre que puedo intento aprender nuevas herramientas y mejorar mis conocimientos actuales.
@@ -147,8 +145,7 @@ export const Home = () => {
                         path='https://lilgibli.com/'>
                         <h4 className="text-2xl text-primary">Lil Giblis:</h4>
                         <p className="text-xl ml-3">
-                            Proyecto NFT, tuve la oportunidad de participar como FrontEnd developer,
-                            y en parte del codigo backEnd.
+                            Proyecto NFT, tuve la oportunidad de participar como FrontEnd developer, y en parte del código backEnd.
                         </p>
                     </Card>
                     <Card img={lilNessians}
@@ -167,8 +164,7 @@ export const Home = () => {
                         <h4 className="text-2xl white">Estado: inconcluso</h4>
                         <h4 className="text-2xl text-primary">Software insigths:</h4>
                         <p className="text-xl ml-3">
-                            Landing page, adapte una plantilla preseleccionada a las necesidades de la empresa,
-                            disene imagenes svg para usarlas en la aplicacion.
+                            Landing page, adapte una plantilla preseleccionada a las necesidades de la empresa, diseñe imágenes svg para usarlas en la aplicación.
                         </p>
                     </Card>
                     <Card img={patagoniaRent}
@@ -177,9 +173,7 @@ export const Home = () => {
                         path="http://patagoniarent.com.ar/">
                         <h4 className="text-2xl text-primary ">Patagonia Rent:</h4>
                         <p className="text-xl ml-3">
-                            Landing page, tuve la oportunidad de desarrollar el FrontEnd,
-                            optimizar los recursos, asesorar al cliente y
-                            llevar la aplicacion a produccion.
+                            Landing page, adapte una plantilla preseleccionada a las necesidades de la empresa, diseñe imágenes svg para usarlas en la aplicación.
                         </p>
                     </Card>
                 </div>

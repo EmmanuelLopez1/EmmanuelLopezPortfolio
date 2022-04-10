@@ -3,13 +3,13 @@ import './css/_global.scss'
 
 // COMPONENTS
 import {Layout} from './containers/Layout.jsx'
-import {Home} from './pages/Home'
+import {SelectLanguage} from './components/SelectLanguage'
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Home/>
+        <SelectLanguage/>
       </Layout>
     </div>
   );

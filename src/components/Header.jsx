@@ -5,7 +5,7 @@ import '../css/Header.scss';
 import { MobileMenu } from './MobileMenu'
 
 export const Header = () => {
-    const menuList = ['Home', 'About me', 'projects', 'Contact']
+    const menuList = ['Home', 'About me', 'Projects', 'Contact']
     const paths = ['home', 'about-me', 'projects', 'contact']
     return (
         <div className="Header">

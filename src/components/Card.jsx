@@ -17,7 +17,7 @@ export const Card = ({children, img, tecnologies, cardStyles, path})=>{
                 <a href={path} target="_blank" className="border border-primary rounded w-full block 
                             mt-4 p-2 text-xl text-center hover:bg-primary 
                             hover:cursor-pointer ease-in duration-300 ">
-                    mirar proyecto
+                    ver proyecto
                 </a>
             </div>
         </div>
